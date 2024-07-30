@@ -18,4 +18,5 @@
   name: Detect hardcoded secrets
   description: Detect hardcoded secrets using Gitleaks
   entry: gitleaks detect --no-banner --log-level=warn
+  language: golang
   pass_filenames: false
